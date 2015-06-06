@@ -1,0 +1,137 @@
+/* 全般設定 */
+* {padding:0; margin:0;}
+
+body {padding:0; margin:0; color:#000000; background:#E13300; font-size:75%; line-height:1.4; font-family:"Trebuchet MS",Verdana,Arial,sans-serif;}
+
+table {width:100%; border-collapse:collapse;}
+table td {vertical-align:top;}
+th {background:#464B4D; color:#ffffff; padding:3px; vertical-align:middle;}
+th a{color:#ffffff;}
+
+a img{border:0 !important;}
+
+a {color:#E13300; text-decoration:none;}
+a:hover {color:#660000; text-decoration:underline;}
+
+ul {margin:0; padding:0; padding-left:24px; list-style:decimal outside; text-align:left;}
+li {margin:0; padding:3px; list-style:square outside; color:#660000;}
+li a {border:0;}
+
+#headerbar {background:#2F3233; border-bottom:1px solid #1E2020;}
+#headerbar h1 {width:770px; margin:0 auto; padding:5px; font-size:150%; text-align:left; font-weight:bold;}
+#headerbar h1 a { color:#FFF;}
+
+#mainBody {width:780px; margin:0px auto; background:#FFF; border-left:10px solid #CC2E00; border-right:10px solid #CC2E00;}
+
+#header {background:url(head01.jpg) no-repeat top left; width:780px; height:200px;}
+#header img {float:left; width:200px;}
+
+#header .searchbar {background:#4F5557; color:#FFF; margin-left:200px;}
+
+#header .searchbar ul {width:250px; list-style:none; margin:0; padding:10px 0;}
+#header .searchbar li {list-style:none; font-size:14px; display:inline; padding:0 20px;}
+#header .searchbar li a {color:#FFF; text-decoration:none;}
+#header .searchbar li a:hover {color:#E13300; text-decoration:underline;}
+
+#header .searchform {float:right; width:250px; padding:8px 0;}
+#header .searchform input.field {width:168px; padding:2px 0; font-size:120%;}
+#header .searchform input.button {width:56px; margin:0; padding:2px !important; border:none; background:#E13300; text-align:center; font-family:verdana,arial,sans-serif; color:#FFF; font-size:120%;}
+
+#lefttop {width:200px; background:#464B4D;}
+
+#navimenu {background:#4F5557; height:35px; vertical-align:middle; overflow:hidden;}
+#navimenu ul {list-style:none; margin:0; padding:0;}
+#navimenu li {list-style:none; display:inline; width:180px;}
+#navimenu li a {font-size:14px; color:#FFF; text-decoration:none; padding:10px 20px; zoom:1;}
+#navimenu li a:hover {background:#E13300; color:#FFF;}
+
+
+#leftcolumn {width:200px; text-align:left; background:#EBEBEB;}
+#leftcolumn .blockTitle {margin:0; font-size:120%; font-weight:bold; padding:5px 10px;}
+#leftcolumn .blockContent {padding:10px; border-bottom:1px solid #D9D9D9;}
+
+#mainmenu a {background:#F4F4F4; display:block; margin:0; padding:4px;}
+#mainmenu a:hover {background:#ffffff;}
+#mainmenu a.menuTop {padding-left:5px; border-bottom:1px solid #D9D9D9;}
+#mainmenu a.menuMain {padding-left:5px; border-bottom:1px solid #D9D9D9;}
+#mainmenu a.menuSub {padding-left:20px; border-bottom:1px solid #D9D9D9;}
+
+#usermenu a {background:#F4F4F4; display:block; margin:0; padding:4px 5px; border-bottom:1px solid #D9D9D9;}
+#usermenu a:hover {background:#ffffff;}
+#usermenu a.menuTop {}
+#usermenu a.highlight {background:#ffcccc;}
+
+#centercolumn {padding:10px 15px;}
+
+#centerCcolumn {padding:0px;}
+#centerCcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#centerCcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#centerLcolumn {width:50%; padding:0px 3px 0px 0px;}
+#centerLcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#centerLcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#centerRcolumn {width:50%; padding:0px 0px 0px 3px;}
+#centerRcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#centerRcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#bottomCcolumn {padding:0px;}
+#bottomCcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#bottomCcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#bottomLcolumn {width:50%; padding:0px 3px 0px 0px;}
+#bottomLcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#bottomLcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#bottomRcolumn {width:50%; padding:0px 0px 0px 3px;}
+#bottomRcolumn .blockTitle {padding:5px 0px; color:#660000; font-weight:bold; border-bottom:1px dashed #cccccc;}
+#bottomRcolumn .blockContent {padding:3px; margin-bottom:10px;}
+
+#content {text-align:left; padding:0;}
+
+#footer {text-align:center; padding:10px; background:#2F3233; color:#FFF;}
+#footer a {color:#FED;}
+
+.outer {border:1px solid #ffffff;}
+.head {background:#DDD; padding:5px; font-weight:bold; color:#ffffff;}
+
+.even {background:#EFEFEF; padding:5px;}
+.odd {background:#f4f4f4; padding:5px;}
+.foot {background:#DDD; padding:10px; font-weight:bold; color:#ffffff;}
+
+tr.even td {background:#EFEFEF; padding:5px;}
+tr.odd td {background:#f4f4f4; padding:5px;}
+
+.item {border:1px solid #cccccc;}
+.itemHead {padding:3px 5px; background:#464B4D; color:#ffffff;}
+.itemInfo {text-align:right; padding:3px; background:#efefef;}
+.itemTitle a {font-size:120%; font-weight:bold; font-variant:small-caps; color:#ffffff;}
+.itemTitle a:hover {color:#ffffff;}
+.itemPoster {font-size:90%;}
+.itemPostDate {font-size:90%;}
+.itemStats {font-size:90%;}
+.itemBody {padding:10px;}
+.itemText {margin-top:5px; margin-bottom:5px; line-height:150%;}
+.itemText:first-letter {}
+.itemFoot {text-align:right; padding:3px; background:#f3f3f3;}
+.itemAdminLink {font-size:90%;}
+.itemPermaLink {font-size:90%;}
+
+div.errorMsg {background:#ffcccc; text-align:center; border-top:1px solid #ddddff; border-left:1px solid #ddddff; border-right:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; font-weight:bold; padding:10px;}
+div.confirmMsg {background:#ddffdf; color:#136c99; text-align:center; border-top:1px solid #ddddff; border-left:1px solid #ddddff; border-right:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; font-weight:bold; padding:10px;}
+div.resultMsg {background:#cccccc; color:#333333; text-align:center; border-top:1px solid silver; border-left:1px solid silver; font-weight:bold; border-right:1px solid #666666; border-bottom:1px solid #666666; padding:10px;}
+div.xoopsCode {background:#ffffff; border:1px inset #000080; padding:0px 6px 6px 6px;}
+div.xoopsQuote {background:#ffffff; border:1px inset #000080; padding:0px 6px 6px 6px;}
+
+.comTitle {font-weight:bold; margin-bottom:2px;}
+.comText {padding:2px;}
+.comUserStat {font-size:10px; color:#2f5376; font-weight:bold; border:1px solid silver; background:#ffffff; margin:2px; padding:2px;}
+.comUserStatCaption {font-weight:normal;}
+.comUserStatus {margin-left:2px; margin-top:10px; color:#2f5376; font-weight:bold; font-size:10px;}
+.comUserRank {margin:2px;}
+.comUserRankText {font-size:10px; font-weight:bold;}
+.comUserRankImg {border:0px;}
+.comUserName {}
+.comUserImg {margin:2px;}
+.comDate {font-weight:normal; font-style:italic; font-size:smaller;}
+.comDateCaption {font-weight:bold; font-style:normal;}
